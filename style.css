@@ -3,6 +3,8 @@ body {
     font-family: Rubik;
 }
 
+
+
 h4{
     margin-top: 0;
 }
@@ -59,7 +61,7 @@ img {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .container1,
@@ -162,7 +164,7 @@ img {
     .container2,
     .container3 {
         height: auto;
-        margin: 30px;
+        margin: 10px;
     }
 
     .cards {
@@ -210,7 +212,7 @@ img {
     }
 
     .container {
-        margin-top: 30px;
+        margin-top: 10px;
     }
 
     .container1,
@@ -218,7 +220,65 @@ img {
     .container3 {
         height: auto;
         width: 90%;
-        margin: 20px;
+        margin: 10px;
+        flex-direction: column;
+    }
+
+    .cards {
+        width: 60%;
+        padding: 15px;
+        margin-top: 15px;
+    }
+
+    .cards > button {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    h3 {
+        margin: 10px;
+    }
+
+    h4 {
+        margin-top: 0px;
+    }
+    .navbar {
+        font-size: 5px;
+        height: auto;
+        align-items: center;
+        padding: 7px;
+    }
+    #btn{
+      height: 10px;
+      width: 15%;
+      font-size:5px;
+    }
+
+    .btn{
+      font-size:10px;
+    }
+
+    #name {
+        font-size: 7px;
+    }
+
+    img {
+        height: 130px;
+        width: 130px;
+        padding: 5px;
+    }
+
+    .container {
+        margin-top: 5px;
+    }
+
+    .container1,
+    .container2,
+    .container3 {
+        height: auto;
+        width: 90%;
+        margin: 10px;
         flex-direction: column;
     }
 
