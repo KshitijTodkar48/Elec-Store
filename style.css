@@ -3,6 +3,10 @@ body {
     font-family: Rubik;
 }
 
+h2 {
+    margin: 10px;
+}
+
 h4{
     margin-top: 0;
 }
