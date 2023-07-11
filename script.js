@@ -6,6 +6,7 @@ function addToCart(name, price, id) {
         price: price
     };
     const element = document.getElementById(id) ;
+    element.innerHTML = "Added" ;
     cartItems.push(item);
     updateCart();
 }
