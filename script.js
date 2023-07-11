@@ -1,10 +1,11 @@
 var cartItems = [];
 
-function addToCart(name, price) {
+function addToCart(name, price, id) {
     var item = {
         name: name,
         price: price
     };
+    const element = document.getElementById(id) ;
     cartItems.push(item);
     updateCart();
 }
